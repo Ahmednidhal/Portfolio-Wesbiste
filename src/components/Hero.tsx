@@ -78,9 +78,9 @@ export default function Hero() {
           className="h-[30px] overflow-hidden flex justify-center items-center"
         >
           <motion.div
-            animate={{ y: [0, -30, -60, -90, -120, 0] }}
+            animate={{ y: [0, -30, -60, -90, -120, -150, -180, 0] }}
             transition={{
-              duration: 10,
+              duration: 14,
               ease: "linear",
               repeat: Infinity,
             }}
@@ -88,9 +88,10 @@ export default function Hero() {
           >
             <span className="h-[30px] flex items-center justify-center">Electronics Engineer</span>
             <span className="h-[30px] flex items-center justify-center">Automotive Filmmaker</span>
+            <span className="h-[30px] flex items-center justify-center">Poster Designer</span>
+            <span className="h-[30px] flex items-center justify-center">Commercial Videographer</span>
             <span className="h-[30px] flex items-center justify-center">Visual Creator</span>
             <span className="h-[30px] flex items-center justify-center">Cinematic Storyteller</span>
-            <span className="h-[30px] flex items-center justify-center">Creative Editor</span>
             <span className="h-[30px] flex items-center justify-center">Electronics Engineer</span>
           </motion.div>
         </motion.div>

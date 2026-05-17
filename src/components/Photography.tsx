@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 const photos = [
@@ -38,13 +39,14 @@ export default function Photography() {
               transition={{ duration: 0.6, delay: (index % 5) * 0.1 }}
               className={`group relative w-full ${photo.aspectRatio} bg-graphite rounded-xl overflow-hidden cursor-pointer border border-white/5 break-inside-avoid`}
             >
-              {/* Image Placeholder or Actual Image */}
+              {/* Image with Next.js Optimization */}
               {photo.imageSrc ? (
-                <img
+                <Image
                   src={photo.imageSrc}
                   alt={photo.title}
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                  loading="lazy"
+                  fill
+                  className="object-cover transition-transform duration-700 group-hover:scale-105"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               ) : (
                 <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-graphite to-matte-black transition-transform duration-700 group-hover:scale-105">

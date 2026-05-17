@@ -9,12 +9,6 @@ gsap.registerPlugin(ScrollTrigger);
 
 const experiences = [
   {
-    role: "Content Creator",
-    company: "Freelance & Collaborations",
-    period: "Past 6 Years",
-    description: "Leading creative direction for automotive campaigns, overseeing video production, and managing post-production workflows.",
-  },
-  {
     role: "Industrial Automation Trainee",
     company: "SkillDrize",
     period: "Feb 2026 - May 2026",

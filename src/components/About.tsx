@@ -30,22 +30,16 @@ export default function About() {
               </h2>
               <div className="space-y-6 text-foreground/80 text-lg font-light leading-relaxed">
                 <p>
-                  As an Electronics & Communication Engineering graduate, my foundation is built on precision, logic, and
-                  understanding complex systems. But my passion lies in translating that precision into compelling visual
-                  narratives.
+                  As an <span className="text-white font-medium">Electronics & Communication Engineering</span> graduate, I approach visual storytelling with the mindset of an engineer—valuing precision, logic, and the intricate details of complex systems.
                 </p>
                 <p>
-                  Whether I am working with automotive brands, designing lighting for a commercial shoot, or capturing
-                  the raw energy of a motorcycle on the track, I bring a unique, technical approach to creative
-                  storytelling.
+                  Beyond the automotive world, I specialize in commercial videography and photography, helping local shops and businesses define their visual identity. From cinematic brand films to high-impact <span className="text-white font-medium">Poster Designing</span>, I provide a full-spectrum creative service.
                 </p>
                 <p>
-                  My work has allowed me to collaborate with industry leaders like{" "}
-                  <span className="text-white font-medium">Motomads India</span>,{" "}
-                  <span className="text-white font-medium">Wharp Films</span>,{" "}
-                  <span className="text-white font-medium">Fastrack India Mangalore</span>, and{" "}
-                  <span className="text-white font-medium">Royal Enfield</span>, blending industrial aesthetic with
-                  cinematic emotion.
+                  I have had the privilege to collaborate with diverse clients and industry leaders like{" "}
+                  <span className="text-white font-medium">Royal Enfield</span>,{" "}
+                  <span className="text-white font-medium">Motomads India</span>, and{" "}
+                  <span className="text-white font-medium">Ferrari World</span>, as well as numerous independent retail brands.
                 </p>
               </div>
 
@@ -79,19 +73,6 @@ export default function About() {
                   className="object-cover object-center grayscale hover:grayscale-0 transition-all duration-700"
                 />
                 <div className="w-full h-full bg-gradient-to-tr from-black/40 to-transparent absolute z-10 pointer-events-none" />
-              </div>
-              
-              {/* Premium Experience Badge */}
-              <div className="absolute -bottom-6 -left-6 bg-background/80 backdrop-blur-md border border-white/10 p-6 rounded-lg shadow-2xl z-20 hidden md:block">
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center text-gold border border-gold/20">
-                    <span className="text-xl">🎥</span>
-                  </div>
-                  <div>
-                    <p className="text-white font-bold text-lg">6+ Years</p>
-                    <p className="text-foreground/50 text-xs uppercase tracking-widest">Experience</p>
-                  </div>
-                </div>
               </div>
             </motion.div>
           </div>
