@@ -8,7 +8,6 @@ const clients = [
   { name: "Fast Track India", category: "Brand" },
   { name: "Royal Enfield", category: "Motorcycle Brand" },
   { name: "Motomads India", category: "Automotive Community" },
-  { name: "Ferrari World", category: "Theme Park" },
 ];
 
 export default function ClientLogos() {
@@ -35,11 +34,16 @@ export default function ClientLogos() {
               Featured Client
             </div>
             
-            <div className="w-32 h-32 md:w-40 md:h-40 rounded-full bg-white flex items-center justify-center mb-8 shadow-2xl">
-              {/* You can replace this text with the Wasfah logo image later */}
-              <span className="text-black font-serif text-3xl font-bold tracking-tighter">
-                W
-              </span>
+            <div className="w-32 h-32 md:w-40 md:h-40 rounded-full bg-white flex items-center justify-center mb-8 shadow-2xl overflow-hidden relative p-4">
+              <img 
+                src="/assets/wasfah.jpg" 
+                alt="Wasfah Clothing Logo" 
+                className="w-full h-full object-contain"
+                onError={(e) => {
+                  e.currentTarget.style.display = 'none';
+                  e.currentTarget.parentElement!.innerHTML = '<span class="text-black font-serif text-3xl font-bold tracking-tighter">W</span>';
+                }}
+              />
             </div>
 
             <h3 className="text-3xl md:text-4xl font-bold text-white mb-2 tracking-tight">Wasfah Clothing</h3>
