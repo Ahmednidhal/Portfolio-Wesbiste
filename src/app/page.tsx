@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import About from "@/components/About";
+import ClientLogos from "@/components/ClientLogos";
 import Skills from "@/components/Skills";
 import ReelsGallery from "@/components/ReelsGallery";
 import Photography from "@/components/Photography";
@@ -12,6 +13,7 @@ export default function Home() {
     <>
       <Hero />
       <About />
+      <ClientLogos />
       <Portfolio />
       <Experience />
       <Skills />
