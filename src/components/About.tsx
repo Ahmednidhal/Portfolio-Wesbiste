@@ -36,10 +36,7 @@ export default function About() {
                   Beyond the automotive world, I specialize in commercial videography and photography, helping brands grow their presence on social media platforms. From cinematic brand films to high-impact <span className="text-white font-medium">Poster Designing</span>, I provide full-spectrum creative services to elevate their visual identity.
                 </p>
                 <p>
-                  I have had the privilege to collaborate with diverse clients and industry leaders like{" "}
-                  <span className="text-white font-medium">Royal Enfield</span>,{" "}
-                  <span className="text-white font-medium">Motomads India</span>, and{" "}
-                  <span className="text-white font-medium">Ferrari World</span>. Over the past years, my work has also extended to independent businesses such as <span className="text-white font-medium">Wasfah Clothing</span> (a clothing brand in UAE) and <span className="text-white font-medium">Wharp Corp</span> (an automotive shop in Kerala).
+                  Currently serving as the <span className="text-white font-medium">Content Head at Wharp Films</span>, I have had the privilege to work with renowned brands like <span className="text-white font-medium">Royal Enfield</span>, <span className="text-white font-medium">Motomads</span>, <span className="text-white font-medium">Fast Track India</span>, and others. My visual work has also achieved international recognition—winning a photography competition at the <span className="text-white font-medium">Sheikh Zayed Museum</span> and being officially featured by <span className="text-white font-medium">Ferrari World Abu Dhabi</span>.
                 </p>
               </div>
 
