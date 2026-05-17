@@ -33,13 +33,13 @@ export default function About() {
                   As an <span className="text-white font-medium">Electronics & Communication Engineering</span> graduate, I approach visual storytelling with the mindset of an engineer—valuing precision, logic, and the intricate details of complex systems.
                 </p>
                 <p>
-                  Beyond the automotive world, I specialize in commercial videography and photography, helping local shops and businesses define their visual identity. From cinematic brand films to high-impact <span className="text-white font-medium">Poster Designing</span>, I provide a full-spectrum creative service.
+                  Beyond the automotive world, I specialize in commercial videography and photography, helping brands grow their presence on social media platforms. From cinematic brand films to high-impact <span className="text-white font-medium">Poster Designing</span>, I provide full-spectrum creative services to elevate their visual identity.
                 </p>
                 <p>
                   I have had the privilege to collaborate with diverse clients and industry leaders like{" "}
                   <span className="text-white font-medium">Royal Enfield</span>,{" "}
                   <span className="text-white font-medium">Motomads India</span>, and{" "}
-                  <span className="text-white font-medium">Ferrari World</span>, as well as numerous independent retail brands.
+                  <span className="text-white font-medium">Ferrari World</span>. Over the past years, my work has also extended to independent businesses such as <span className="text-white font-medium">Wasfah Clothing</span> (a clothing brand in UAE) and <span className="text-white font-medium">Wharp Corp</span> (an automotive shop in Kerala).
                 </p>
               </div>
 
